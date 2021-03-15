@@ -1,9 +1,7 @@
-# Ignore the binaries and library roots for Windows
-/**/bin/
-/**/obj/
-/**/cvmlib/
-/**/cvmlib32/
+# Ignore CLion build root
+/cmake-build-*
 
-# Ignore the http binary dir, sometimes it gets left in the source root
-http/
+# or, for people who prefer just calling cmake, 
+# ignore /build for them
+/build
 

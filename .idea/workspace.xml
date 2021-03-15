@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="collab-vm-server" targetName="NightlyMemCheck" />
+      <config projectName="collab-vm-server" targetName="ExperimentalConfigure" />
+      <config projectName="collab-vm-server" targetName="ContinuousMemCheck" />
+      <config projectName="collab-vm-server" targetName="ExperimentalBuild" />
+      <config projectName="collab-vm-server" targetName="ContinuousUpdate" />
+      <config projectName="collab-vm-server" targetName="fuzzerlib_parser" />
+      <config projectName="collab-vm-server" targetName="ExperimentalTest" />
+      <config projectName="collab-vm-server" targetName="NightlyStart" />
+      <config projectName="collab-vm-server" targetName="ContinuousStart" />
+      <config projectName="collab-vm-server" targetName="ContinuousTest" />
+      <config projectName="collab-vm-server" targetName="proxy" />
+      <config projectName="collab-vm-server" targetName="NightlyMemoryCheck" />
+      <config projectName="collab-vm-server" targetName="validate" />
+      <config projectName="collab-vm-server" targetName="limits" />
+      <config projectName="collab-vm-server" targetName="ContinuousConfigure" />
+      <config projectName="collab-vm-server" targetName="Continuous" />
+      <config projectName="collab-vm-server" targetName="path" />
+      <config projectName="collab-vm-server" targetName="NightlyCoverage" />
+      <config projectName="collab-vm-server" targetName="spdlog" />
+      <config projectName="collab-vm-server" targetName="ContinuousSubmit" />
+      <config projectName="collab-vm-server" targetName="ExperimentalMemCheck" />
+      <config projectName="collab-vm-server" targetName="fuzzerlib_parse" />
+      <config projectName="collab-vm-server" targetName="ExperimentalCoverage" />
+      <config projectName="collab-vm-server" targetName="fuzzerlib_basic_parser" />
+      <config projectName="collab-vm-server" targetName="ExperimentalUpdate" />
+      <config projectName="collab-vm-server" targetName="NightlyUpdate" />
+      <config projectName="collab-vm-server" targetName="pretty" />
+      <config projectName="collab-vm-server" targetName="collab-vm-server" />
+      <config projectName="collab-vm-server" targetName="NightlyConfigure" />
+      <config projectName="collab-vm-server" targetName="boost_json" />
+      <config projectName="collab-vm-server" targetName="NightlyBuild" />
+      <config projectName="collab-vm-server" targetName="ExperimentalStart" />
+      <config projectName="collab-vm-server" targetName="tests" />
+      <config projectName="collab-vm-server" targetName="ExperimentalSubmit" />
+      <config projectName="collab-vm-server" targetName="Nightly" />
+      <config projectName="collab-vm-server" targetName="NightlySubmit" />
+      <config projectName="collab-vm-server" targetName="ContinuousBuild" />
+      <config projectName="collab-vm-server" targetName="ContinuousCoverage" />
+      <config projectName="collab-vm-server" targetName="Experimental" />
+      <config projectName="collab-vm-server" targetName="NightlyTest" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7639e059-8aba-4df3-94c4-7d9c5e77c3cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vendor/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/spdlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/collab-vm-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/collab-vm-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BUILDING.md" beforeDir="false" afterPath="$PROJECT_DIR$/BUILDING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_src/admin/admin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_src/admin/config.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_src/admin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_src/index.html.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_src/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mk/Makedefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mk/cygwin.mkc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mk/linux.mkc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mk/win32.mkc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mk/win64.mkc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build_site.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/copy_dlls_cyg.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/copy_dlls_mw.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/grab_deps_cyg.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/grab_deps_linux.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/grab_deps_mw32.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/grab_deps_mw64.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AgentProtocol.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Base64.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollabVM.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollabVM.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollabVMUser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Database.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Database.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/VMSettings.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuacBroadcastSocket.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuacBroadcastSocket.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuacClient.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuacClient.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuacInstructionParser.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuacInstructionParser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuacSocket.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuacSocket.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuacUser.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuacUser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuacVNCClient.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuacVNCClient.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuacWebSocket.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuacWebSocket.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sockets/AgentClient.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sockets/AgentClient.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sockets/LocalSocketClient-Unix.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sockets/LocalSocketClient-Win.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sockets/LocalSocketClient.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sockets/QMPClient.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sockets/QMPClient.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sockets/SocketClient.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sockets/TCPSocketClient.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StackTrace.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnitTests/AgentClientTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnitTests/QMPTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UploadInfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserList.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VMControllers/QEMUController.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VMControllers/QEMUController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VMControllers/QMP.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VMControllers/QMP.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VMControllers/VMController.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VMControllers/VMController.cpp.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VMControllers/VMController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VMControllers/VMController.h.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cairo_jpg.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cairo_jpg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/auth.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/bearer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/bearer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/body.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/callback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/connect_timeout.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/cookies.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/cookies.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/cpr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/cpr_auth.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/cpr_error.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/cprtypes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/cprtypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/curl_container.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/curl_container.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/curlholder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/curlholder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/digest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/limit_rate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/low_speed.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/max_redirects.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/multipart.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/multipart.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/ntlm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/parameters.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/parameters.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/payload.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/payload.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/proxies.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/proxies.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/response.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/response.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/session.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/session.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/ssl_options.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/status_codes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/timeout.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/timeout.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/unix_socket.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/unix_socket.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/user_agent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/util.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/util.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cpr/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/audio-fntypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/audio-types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/audio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/client-constants.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/client-fntypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/client-types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/client.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/client.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/error-types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/error.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/guac_clipboard.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/guac_clipboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/guac_cursor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/guac_cursor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/guac_display.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/guac_display.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/guac_dot_cursor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/guac_dot_cursor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/guac_iconv.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/guac_iconv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/guac_list.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/guac_list.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/guac_pointer_cursor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/guac_pointer_cursor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/guac_rect.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/guac_rect.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/guac_string.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/guac_string.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/guac_surface.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/guac_surface.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/hash.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/hash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/id.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/id.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/layer-types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/layer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/palette.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/palette.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/parser-constants.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/parser-types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/parser.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/parser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/plugin-constants.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/plugin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/pool-types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/pool.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/pool.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/protocol-types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/protocol.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/protocol.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/socket-constants.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/socket-fntypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/socket-nest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/socket-types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/socket.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/socket.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/stream-types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/stream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/timestamp-types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/timestamp.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/timestamp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/unicode.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/unicode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/user-constants.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/user-fntypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/user-handlers.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/user-handlers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/user-types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/user.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/user.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/auth.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/auth.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/client.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/client.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/clipboard.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/clipboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/cursor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/cursor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/display.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/display.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/input.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/input.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/log.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/log.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/settings.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/settings.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/user.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/user.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/vnc.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/vnc.cpp.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/vnc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guacamole/vnc/vnc.h.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/Uri.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriCommon.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriCommon.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriCompare.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriDefsAnsi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriDefsConfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriDefsUnicode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriEscape.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriFile.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriIp4.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriIp4.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriIp4Base.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriIp4Base.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriNormalize.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriNormalizeBase.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriNormalizeBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriParse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriParseBase.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriParseBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriQuery.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriRecompose.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriResolve.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uriparser/UriShorten.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/websocketmm/beast/beast.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/websocketmm/beast/net.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/websocketmm/fwd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/websocketmm/listener.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/websocketmm/listener.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/websocketmm/server.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/websocketmm/server.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/websocketmm/websocket_user.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/websocketmm/websocket_user.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/allocators.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/document.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/encodedstream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/encodings.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/error/en.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/error/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/filereadstream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/filewritestream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/internal/biginteger.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/internal/diyfp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/internal/dtoa.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/internal/ieee754.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/internal/itoa.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/internal/meta.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/internal/pow10.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/internal/stack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/internal/strfunc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/internal/strtod.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/memorybuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/memorystream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/msinttypes/inttypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/msinttypes/stdint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/prettywriter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/rapidjson.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/reader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/stringbuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/rapidjson/include/rapidjson/writer.h" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/computernewb/collab-vm-server" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1pmykCZC8IOrc42wb74Aq6dqxyo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.overridden" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
+  </component>
+  <component name="RunManager" selected="CMake Application.collab-vm-server">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Continuous" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="Continuous" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="ContinuousBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="ContinuousBuild">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="ContinuousConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="ContinuousConfigure">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="ContinuousCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="ContinuousCoverage">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="ContinuousMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="ContinuousMemCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="ContinuousStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="ContinuousStart">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousSubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="ContinuousSubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="ContinuousSubmit">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="ContinuousTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="ContinuousTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="ContinuousUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="ContinuousUpdate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Experimental" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="Experimental" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="ExperimentalBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="ExperimentalBuild">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="ExperimentalConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="ExperimentalConfigure">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="ExperimentalCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="ExperimentalCoverage">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="ExperimentalMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="ExperimentalMemCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="ExperimentalStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="ExperimentalStart">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalSubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="ExperimentalSubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="ExperimentalSubmit">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="ExperimentalTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="ExperimentalTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="ExperimentalUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="ExperimentalUpdate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Nightly" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="Nightly" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="NightlyBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="NightlyBuild">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="NightlyConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="NightlyConfigure">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="NightlyCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="NightlyCoverage">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="NightlyMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="NightlyMemCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyMemoryCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="NightlyMemoryCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="NightlyMemoryCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="NightlyStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="NightlyStart">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlySubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="NightlySubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="NightlySubmit">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="NightlyTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="NightlyTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="NightlyUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="NightlyUpdate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="boost_json" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="boost_json" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="collab-vm-server" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="collab-vm-server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="collab-vm-server">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fuzzerlib_basic_parser" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="fuzzerlib_basic_parser" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fuzzerlib_parse" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="fuzzerlib_parse" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fuzzerlib_parser" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="fuzzerlib_parser" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="limits" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="limits" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="limits">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="path" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="path" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="path">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pretty" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="pretty" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="pretty">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="proxy" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="proxy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="proxy">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spdlog" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="spdlog" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="validate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="collab-vm-server" TARGET_NAME="validate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="collab-vm-server" RUN_TARGET_NAME="validate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.collab-vm-server" />
+      <item itemvalue="CMake Application.boost_json" />
+      <item itemvalue="CMake Application.Continuous" />
+      <item itemvalue="CMake Application.ContinuousBuild" />
+      <item itemvalue="CMake Application.ContinuousConfigure" />
+      <item itemvalue="CMake Application.ContinuousCoverage" />
+      <item itemvalue="CMake Application.ContinuousMemCheck" />
+      <item itemvalue="CMake Application.ContinuousStart" />
+      <item itemvalue="CMake Application.ContinuousSubmit" />
+      <item itemvalue="CMake Application.ContinuousTest" />
+      <item itemvalue="CMake Application.ContinuousUpdate" />
+      <item itemvalue="CMake Application.Experimental" />
+      <item itemvalue="CMake Application.ExperimentalBuild" />
+      <item itemvalue="CMake Application.ExperimentalConfigure" />
+      <item itemvalue="CMake Application.ExperimentalCoverage" />
+      <item itemvalue="CMake Application.ExperimentalMemCheck" />
+      <item itemvalue="CMake Application.ExperimentalStart" />
+      <item itemvalue="CMake Application.ExperimentalSubmit" />
+      <item itemvalue="CMake Application.ExperimentalTest" />
+      <item itemvalue="CMake Application.ExperimentalUpdate" />
+      <item itemvalue="CMake Application.Nightly" />
+      <item itemvalue="CMake Application.NightlyBuild" />
+      <item itemvalue="CMake Application.NightlyConfigure" />
+      <item itemvalue="CMake Application.NightlyCoverage" />
+      <item itemvalue="CMake Application.NightlyMemCheck" />
+      <item itemvalue="CMake Application.NightlyMemoryCheck" />
+      <item itemvalue="CMake Application.NightlyStart" />
+      <item itemvalue="CMake Application.NightlySubmit" />
+      <item itemvalue="CMake Application.NightlyTest" />
+      <item itemvalue="CMake Application.NightlyUpdate" />
+      <item itemvalue="CMake Application.path" />
+      <item itemvalue="CMake Application.pretty" />
+      <item itemvalue="CMake Application.proxy" />
+      <item itemvalue="CMake Application.validate" />
+      <item itemvalue="CMake Application.fuzzerlib_basic_parser" />
+      <item itemvalue="CMake Application.fuzzerlib_parse" />
+      <item itemvalue="CMake Application.fuzzerlib_parser" />
+      <item itemvalue="CMake Application.limits" />
+      <item itemvalue="CMake Application.tests" />
+      <item itemvalue="CMake Application.spdlog" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7639e059-8aba-4df3-94c4-7d9c5e77c3cc" name="Default Changelist" comment="" />
+      <created>1615802701736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615802701736</updated>
+      <workItem from="1615802704587" duration="2261000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

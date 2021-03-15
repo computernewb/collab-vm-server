@@ -92,7 +92,9 @@ make
 
 #### Visual Studio 
 
-Visual Studio is currently unsupported, however it may be supported later once stuff is completed.
+Visual Studio is *possibly* supported, now that the server is CMake and starting to be rewritten. 
+
+Detailed instructions for how to get the server to work with Visual Studio's CMake tools will be written later once ensured.
 
 ### Linux 
 On Linux, compiling with both clang and gcc seem to work fine. It is recommended to use clang.
@@ -101,19 +103,20 @@ Run the following commands:
 
 ```
 # on Arch Linux:
-sudo pacman -S base-devel
+sudo pacman -S base-devel boost
 
-# on Debian/Ubuntu:
+# on Debian/Ubuntu (build Boost 1.75 yourself!):
 sudo apt install -y build-essential
 
-# on Fedora/Red Hat/CentOS/Etc:
+# on Fedora/Red Hat/CentOS/Etc (You pretty much have to build boost yourself on red hat):
 sudo yum groupinstall 'Development Tools'
 
-# Get all of the CollabVM Server dependencies for Linux.
-./scripts/grab_deps_linux.sh
+# Build a release build of the server
+mkdir build
+cd build
+cmake .. -DCMAKE_BUILD_TYPE=Release
 
-# build the server 
-make
+make ( -j$(($(nproc)+1)) ? )
 ```
 
 To build with the Clang compiler (and, also possibly instrument the binary with ASAN/such), do `make CC=clang CXX=clang++`.
